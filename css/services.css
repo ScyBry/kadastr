@@ -221,7 +221,7 @@ header{
     line-height: 46px;
     color: #444B54;
     margin-bottom: 20px;
-    background: url("../img/h2_bg.jpg");
+    background: url("./img/h2_bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -241,7 +241,7 @@ header{
     color: #444B54;
 }
 .input {
-    background: url("../img/input_bg.jpg") top center;
+    background: url("./img/input_bg.jpg") top center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 100px;
