@@ -125,6 +125,28 @@
       .popup_info p{
        font-size: 20px;
       }
+      .map{
+        position: relative;
+    }
+    .contacts_img{
+        position: absolute;
+        top: 255px;
+        right: -110px;
+        transform: rotate(90deg);
+        width: 298px;
+        height: 52px;
+    }
+    .dropdowns{
+        position: relative;
+    }
+    .dropdowns_title img{
+        position: absolute;
+        transform: rotate(90deg);
+        width: 174px;
+        height: 77px;
+        right: -60px;
+    }
+
   
 }
 @media  screen and (max-width: 948px) {
@@ -142,19 +164,16 @@
         flex-direction: column;
         gap: 10px;
     }
+    
 }
 @media  screen and (max-width:700px) {
     
     .map_left_container{
         flex-direction: row;
+        position: relative;
     }
-    .contacts_img{
-        display: none;
-       
-    }
-    .dropdowns_title img{
-        display: none;
-    }
+   
+   
     
 }
 @media  screen  and (max-width: 568px) {
