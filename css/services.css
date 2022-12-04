@@ -58,7 +58,7 @@ header{
     margin: 0 auto;
 }
 .top{
-    background: url("./img/top-bg.png") top center;
+    background: url("../img/top-bg.png") top center;
     background-repeat: no-repeat;
     background-size: cover;
    
@@ -241,7 +241,7 @@ header{
     color: #444B54;
 }
 .input {
-    background: url("./img/input_bg.jpg") top center;
+    background: url("../img/input_bg.jpg") top center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 100px;
