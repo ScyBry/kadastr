@@ -146,6 +146,17 @@
         height: 77px;
         right: -60px;
     }
+    .slider_title{
+        position: relative;
+        margin-top: 160px;
+    }
+    .slider_title img{
+        width: 262px;
+        height: 77px;
+        position: absolute;
+        top: -100px;
+        right: 0;
+    }
 
   
 }

@@ -23,8 +23,9 @@ $swiperSelector.each(function(index) {
         },
         992: {
           slidesPerView: slidesTablet
+          
         },
-        320: {
+        400: {
            slidesPerView: slidesMobile
         }
       },
