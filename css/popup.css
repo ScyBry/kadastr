@@ -84,6 +84,9 @@
   text-align: left;
   color: #FFFFFF;
 }
+.popup_checkbox p{
+  font-size: 15px;
+}
 .popup__close::after, .popup__close::before {
   content: "";
   position: absolute;
@@ -123,6 +126,6 @@
   align-items: center;
   padding: 100px;
 }
-.confirm_info p{
+.popup__text{
   text-align: center;
 }

@@ -227,3 +227,9 @@
     background: rgba(106, 32, 43, 0.8);
     transition: 0.3s;
 }
+.activated{
+    height: 545.6px; 
+    overflow: hidden; 
+    padding: 0px; 
+    display: flex;
+}

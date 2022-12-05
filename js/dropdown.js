@@ -9,10 +9,15 @@ if (allDropdowns) {
         let compStl = window.getComputedStyle(dropdownList)
         let currentpadding = compStl.getPropertyValue('padding')
         let dropdownListPadding = currentpadding
+       
+
         dropdownList.style.height = '0px';
         dropdownList.style.overflow = 'hidden';
         dropdownList.style.padding = '0px'
         dropdownList.style.display = 'none';
+        
+        
+
        
 
         dropdown.addEventListener('click', () => {
@@ -27,6 +32,8 @@ if (allDropdowns) {
             })
             if (dropdown.classList.contains('active')) {
                 dropdown.classList.remove('active')
+                dropdownList.style.height = `0px`;
+                dropdownList.style.padding = '0px';
                 dropdownList.style.height = `0px`;
                 dropdownList.style.padding = '0px'
                 minus.classList.add('hidden')
@@ -75,3 +82,7 @@ if (allDropdowns) {
 
     })
 }
+
+let firstDropdownList = allDropdowns[0].querySelector('.dropdown__list__')
+firstDropdownList.style.height = '546px';
+firstDropdownList.style.display = 'flex';
