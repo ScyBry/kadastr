@@ -40,7 +40,7 @@
 .popup__body {
   width: 100%;
   max-width: 700px;
-  padding: 120px;
+  padding: 25px;
   background: rgba(237, 243, 250, 0.6);
   border-radius: 5px;
   transform: scale(0);
@@ -63,6 +63,7 @@
   flex-direction: column;
   align-items: center;
 }
+
 .popup_info h2{
   font-family: 'Lora';
   font-weight: 600;
@@ -80,7 +81,7 @@
   font-weight: 500;
   font-size: 24px;
   line-height: 32px;
-  text-align: center;
+  text-align: left;
   color: #FFFFFF;
 }
 .popup__close::after, .popup__close::before {
@@ -103,7 +104,7 @@
 .popup__text {
   font-size: 26px;
   font-weight: 600;
-  text-align: center;
+  text-align: left;
 }
 .popup.show {
   visibility: visible;
@@ -116,3 +117,12 @@
   transform: scale(1);
   transition: all 0.3s ease 0.2s;
 }/*# sourceMappingURL=popup.css.map */
+.confirm_info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+.confirm_info p{
+  text-align: center;
+}

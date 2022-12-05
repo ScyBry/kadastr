@@ -5,7 +5,7 @@ a:focus,a:active{outline: none;}
 nav,footer,header,aside{display: block;}
 html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
 input,button,textarea{font-family:inherit;}
-input::-ms-clear{display: none;}
+/* input::-ms-clear{display: none;} */
 button{cursor: pointer;}
 button::-moz-focus-inner{padding:0;border:0;}
 a,a:visited{text-decoration: none;}
@@ -315,7 +315,8 @@ header{
     gap: 10px;
 }
 .check_box_container input{
-    margin-top: 5px;  
+    margin-top: 5px; 
+    text-align: left; 
 }
 .check_box_container p{
     text-align: left;
@@ -347,7 +348,7 @@ header{
 }
 .contacts_img{
     max-width: 500px;
-    max-height: 60px;
+    max-height: 70px;
     margin-bottom: 60px;
 }
 .map_item_container {
@@ -410,6 +411,7 @@ footer{
    
 }
 .maxard_img{
+    height: 24px;
     margin-bottom: 20px;
 }
 .border{
@@ -450,4 +452,13 @@ footer{
     line-height: 26px;
     color: rgba(255, 255, 255, 0.35);
     margin-top: 5px;
+}
+.background_item{
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 50px 0px;
+}
+.background{
+    background-color:#FAFAFA;;
 }

@@ -111,7 +111,7 @@
         height: 100%;
     }
     .popup__body{
-        padding: 150px 15px;
+        padding: 25px 15px;
     }
     .popup_info h2{
         font-size: 32px;
@@ -159,6 +159,12 @@
     }
     .main_content{
         padding-bottom: 0px;
+    }
+    .background_item{
+        margin: 0 15px;
+    }
+    .confirm_info{
+        padding: 25px;
     }
 
   

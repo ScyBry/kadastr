@@ -98,6 +98,7 @@
     margin-bottom: 20px;
 }
 .benefits_right_container_wrapper button{
+    margin-top: 50px;
     font-weight: 600;
     font-size: 14px;
     line-height: 26px;
@@ -197,11 +198,11 @@
     color: #54595F;
     }
 .dropdown_ul:nth-child(2n+1){
-    background-color:  #FFF8F9
+    background-color:  #f8e2e4
 }
 .dropdown_ul li{
     width: 100%;
-    margin-bottom: 13px;
+    /* margin-bottom: 13px; */
     padding: 5px 0;
 }
 .dropdown_object{
